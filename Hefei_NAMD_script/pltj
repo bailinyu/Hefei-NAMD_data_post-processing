@@ -1,0 +1,6 @@
+for i in {0891..0900}
+do
+cd $i
+yhbatch -N1 -p long1 sub.sh
+cd ../
+done
